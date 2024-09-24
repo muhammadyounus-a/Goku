@@ -8,6 +8,16 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 import { Autoplay, Navigation, Pagination, EffectFade } from 'swiper/modules';
 import Search from '../Components/Search';
+import sliderImg1 from "../assets/slider-img-1.jpg"; 
+import sliderImg2 from "../assets/slider-img-2.jpg";
+import sliderImg3 from "../assets/slider-img-3.jpg";
+import sliderImg4 from "../assets/slider-img-4.jpg";
+import sliderImg5 from "../assets/slider-img-5.jpg";
+import sliderImg6 from "../assets/slider-img-6.jpg";
+import sliderImg7 from "../assets/slider-img-7.jpg";
+import sliderImg8 from "../assets/slider-img-8.jpg";
+import sliderImg9 from "../assets/slider-img-9.jpg";
+import sliderImg10 from "../assets/slider-img-10.jpg";
 
 function Home() {
     const [active, setActive] = useState(false);
@@ -91,16 +101,16 @@ function Home() {
             modules={[Autoplay, Pagination, Navigation,EffectFade ]}
             className="mySwiper lg:h-[600px] lg:w-[65%]"
           >
-            <SwiperSlide><img className='w-full' src="../assets/slider-img-1.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="../assets/slider-img-2.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="../assets/slider-img-3.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="../assets/slider-img-4.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="../assets/slider-img-5.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="../assets/slider-img-6.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="../assets/slider-img-7.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="../assets/slider-img-8.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="../assets/slider-img-9.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="../assets/slider-img-10.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src={sliderImg1} alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src={sliderImg2} alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src={sliderImg3} alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src={sliderImg4} alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src={sliderImg5} alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src={sliderImg6} alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src={sliderImg7} alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src={sliderImg8} alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src={sliderImg9} alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src={sliderImg10} alt="" /></SwiperSlide>
         </Swiper>
 
         </div>

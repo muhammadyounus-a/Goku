@@ -1,4 +1,5 @@
 import React from 'react'
+import navIcon from "../assets/9ce7510639c4204bfe43904fad8f361f.png";
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
       <div className="flex flex-wrap justify-between text-[14px] p-16 bg-black">
         <div className="flex flex-col md:flex-row lg:gap-20 sm:gap-10 text-[14px]">
           <div className="mb-5 flex-col items-end justify-between lg:hidden md:hidden block">
-            <img src="../assets/9ce7510639c4204bfe43904fad8f361f.png" alt="Logo" className="mt-8 lg:mt-0 w-32 lg:w-36" />
+            <img src={navIcon} alt="Logo" className="mt-8 lg:mt-0 w-32 lg:w-36" />
           </div>
           <div>
 
@@ -97,7 +98,7 @@ export default function Footer() {
 
         
         <div className=" flex-col items-end justify-between lg:flex md:block hidden">
-          <img src="../assets/9ce7510639c4204bfe43904fad8f361f.png" alt="Logo" className="mt-8 lg:mt-0 w-32 lg:w-36" />
+          <img src={navIcon} alt="Logo" className="mt-8 lg:mt-0 w-32 lg:w-36" />
         </div>
       </div>
     </div>
