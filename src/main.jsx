@@ -9,7 +9,7 @@ import App from './App.jsx'
 
 import Home from './pages/Home.jsx'
 import Movies from './pages/Movies/Movies.jsx'
-import Index from './pages/index.jsx'
+import Index from './pages/Index.jsx'
 
 
 const router = createBrowserRouter([
