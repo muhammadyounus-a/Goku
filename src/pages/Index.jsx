@@ -1,5 +1,4 @@
-import React from 'react'
-import Home from './Home';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Index() {
@@ -20,7 +19,7 @@ export default function Index() {
         <div className='bg-gray-800 lg:py-6 lg:px-32 px-10 py-3 md:py-6 md:px-28 rounded-xl text-center  '>
           <div className='mb-6 flex md:flex-row flex-col  justify-center items-center gap-8'>
             <img 
-              src='src/assets/home-icon.png' 
+              src='../assets/home-icon.png' 
               alt='Clapperboard'
               className='mx-auto mb-4 w-[200px] h-[200px]'
             />

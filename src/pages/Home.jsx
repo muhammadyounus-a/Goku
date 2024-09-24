@@ -91,16 +91,16 @@ function Home() {
             modules={[Autoplay, Pagination, Navigation,EffectFade ]}
             className="mySwiper lg:h-[600px] lg:w-[65%]"
           >
-            <SwiperSlide><img className='w-full' src="src/assets/slider-img-1.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="src/assets/slider-img-2.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="src/assets/slider-img-3.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="src/assets/slider-img-4.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="src/assets/slider-img-5.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="src/assets/slider-img-6.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="src/assets/slider-img-7.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="src/assets/slider-img-8.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="src/assets/slider-img-9.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='w-full' src="src/assets/slider-img-10.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src="../assets/slider-img-1.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src="../assets/slider-img-2.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src="../assets/slider-img-3.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src="../assets/slider-img-4.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src="../assets/slider-img-5.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src="../assets/slider-img-6.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src="../assets/slider-img-7.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src="../assets/slider-img-8.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src="../assets/slider-img-9.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide><img className='w-full' src="../assets/slider-img-10.jpg" alt="" /></SwiperSlide>
         </Swiper>
 
         </div>

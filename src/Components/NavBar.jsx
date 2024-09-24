@@ -23,7 +23,7 @@ export default function NavBar() {
                         <NavLink to="/" className={({ isActive, isPending }) => 
                             isPending ? "pending" : isActive ? "active" : ""
                         }>
-                            <img className='lg:w-28 md:w-28 sm:w-24 w-24 h-full' src="src/assets/9ce7510639c4204bfe43904fad8f361f.png" alt="Logo" />
+                            <img className='lg:w-28 md:w-28 sm:w-24 w-24 h-full' src="../assets/9ce7510639c4204bfe43904fad8f361f.png" alt="Logo" />
                         </NavLink>
                     </div>
                     <div className="lg:ml-10">
