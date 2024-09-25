@@ -1,12 +1,18 @@
 import React from 'react'
 import ListItem from './ListItem'
 import { countries, movieGenres } from '../utils/datas'
+import { NavLink } from 'react-router-dom'
 
 export default function MenuBar() {
+
+    function closeMenu(){
+        const barMenu = document.getElementById("barMenu");
+        barMenu.style.display = "none";
+    }
   return (
-    <div className="bg-black w-full h-fit p-4 lg:hidden">
+    <div className="bg-black w-full h-fit absolute z-[5000] p-4 lg:hidden" id='barMenu'>
             <ul class="top-menu-nav">
-                <li className='text-white mt-7 mb-7'><a href="#">Home</a></li>
+                <li className='text-white mt-7 mb-7'><NavLink to="home" onClick={closeMenu}>Home</NavLink></li>
                 <hr className='opacity-25'></hr>
                 <li className='text-white mt-7 mb-7 relative group'>
                     <a href="#" className='flex items-center'>Genre
@@ -40,11 +46,9 @@ export default function MenuBar() {
                     </div>
                 </li>
                 <hr className='opacity-25'></hr>
-                <li className='text-white mt-7 mb-7'><a href="#">Movies</a></li>
+                <li className='text-white mt-7 mb-7'><NavLink onClick={closeMenu} to="/tv-series">TV Series</NavLink></li>
                 <hr className='opacity-25'></hr>
-                <li className='text-white mt-7 mb-7'><a href="#">TV Series</a></li>
-                <hr className='opacity-25'></hr>
-                <li className='text-white mt-7 mb-7'><a href="#">Top IMDb</a></li>
+                <li className='text-white mt-7 mb-7'><NavLink onClick={closeMenu} to="/topimbo">Top IMDb</NavLink></li>
             </ul>
             </div>
   )
